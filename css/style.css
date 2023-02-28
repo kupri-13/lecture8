@@ -1,0 +1,45 @@
+.s1{
+    padding-top: 50px;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.infobox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 340px;
+    margin-bottom: 50px;
+}
+
+.infobox > h5{
+    color: #5863f8;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.infobox > h2{
+    font-size: 42px;
+    
+}
+
+.formsbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+textarea{
+    max-width: 350px;
+    width: 100%;
+    height: 290px;
+    resize: none;
+    background-color: white;
+    padding: 20px;
+}
